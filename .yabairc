@@ -1,0 +1,16 @@
+# bsp or float (default: bsp)
+yabai -m config layout bsp
+
+# set gaps
+yabai -m config top_padding    16
+yabai -m config bottom_padding 16
+yabai -m config left_padding   16
+yabai -m config right_padding  16
+yabai -m config window_gap     16
+
+# focus on window that mouse is over
+yabai -m config focus_follows_mouse autoraise
+
+# set mouse follows focus mode (default: off)
+# yabai -m config mouse_follows_focus on
+

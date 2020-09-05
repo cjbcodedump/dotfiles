@@ -1,0 +1,63 @@
+# ____  _  ___   _ ____     ____             __ _       
+#/ ___|| |/ / | | |  _ \   / ___|___  _ __  / _(_) __ _ 
+#\___ \| ' /| |_| | | | | | |   / _ \| '_ \| |_| |/ _` |
+# ___) | . \|  _  | |_| | | |__| (_) | | | |  _| | (_| |
+#|____/|_|\_\_| |_|____/   \____\___/|_| |_|_| |_|\__, |
+#                                                 |___/ 
+# personal config for yabaiWM and skhd (macOS 10.14, 2560 x 1600 resoltuion 
+
+
+# ----
+# Run Programmes
+# ----
+
+# open vim
+alt - v : /usr/bin/nvim
+alt - return : open -na /Applications/iTerm.app 
+alt - c : open -na /Applications/Chromium.app
+
+0x0A : skhd -k "escape"
+
+# Yabai
+# Focus window
+alt - left : yabai -m window --focus west
+alt - down : yabai -m window --focus south
+alt - up : yabai -m window --focus north
+alt - right : yabai -m window --focus east
+alt - a: yabai -m window --focus west
+alt - s : yabai -m window --focus south
+alt - w : yabai -m window --focus north
+alt - d : yabai -m window --focus east
+
+# move window
+ctrl + alt - left : yabai -m window --warp west
+ctrl + alt - down : yabai -m window --warp south
+ctrl + alt - up : yabai -m window --warp north
+ctrl + alt - right : yabai -m window --warp east
+shift + alt - a : yabai -m window --warp west
+shift + alt - s : yabai -m window --warp south
+shift + alt - w : yabai -m window --warp north
+shift + alt - d : yabai -m window --warp east
+
+# swap window
+# ctrl + alt - a : yabai -m window --swap west
+# ctrl + alt - s : yabai -m window --swap south
+# ctrl + alt - w : yabai -m window --swap north
+# ctrl + alt - d : yabai -m window --swap east
+
+
+# rotate tree
+alt - r : yabai -m space --rotate 90
+
+# balance windows
+alt - b : yabai -m space --balance
+
+# Make window fullscreen
+alt - f : yabai -m window --toggle zoom-fullscreen
+
+# change layout of desktop
+ctrl + alt - o : yabai -m space --layout bsp
+ctrl + alt - p : yabai -m space --layout float
+
+# End of File
+
