@@ -18,10 +18,10 @@ alias op='open -a'
 alias ff='open /Applications/Firefox.app'
 alias tor='open /Applications/Tor\ Browser.app'
 alias ytd='youtube-dl'
-alias hostsoff='sudo mv /etc/hosts ~/Desktop/hosts'
-alias hostson='sudo mv ~/Desktop/hosts /etc/hosts'
 
 alias raptor='ssh cb883@raptor.kent.ac.uk'
 alias mobile='ssh mobile@19.168.1.88'
 
-alias dotfiles='/usr/bin/git --git-dir=/Users/js/.dotfiles/ --work-tree=/Users/js'
+alias eject='diskutil eject'
+
+alias py='python3 '

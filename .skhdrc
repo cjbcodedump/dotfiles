@@ -1,22 +1,25 @@
 # ____  _  ___   _ ____     ____             __ _       
 #/ ___|| |/ / | | |  _ \   / ___|___  _ __  / _(_) __ _ 
-#\___ \| ' /| |_| | | | | | |   / _ \| '_ \| |_| |/ _` |
+#\___ \| '   /| |_| | | | | | |   / _ \| '_ \| |_| |/ _` |
 # ___) | . \|  _  | |_| | | |__| (_) | | | |  _| | (_| |
 #|____/|_|\_\_| |_|____/   \____\___/|_| |_|_| |_|\__, |
 #                                                 |___/ 
-# personal config for yabaiWM and skhd (macOS 10.14, 2560 x 1600 resoltuion 
+# personal config for yabaiWM and skhd (macOS 10.14)
 
 
 # ----
 # Run Programmes
 # ----
-
-# open vim
-alt - v : /usr/bin/nvim
 alt - return : open -na /Applications/iTerm.app 
 alt - c : open -na /Applications/Chromium.app
 
+# ----
+# Rebind Keys
+# ____
+# rebind ± (no shift) to escape for vim
 0x0A : skhd -k "escape"
+# option + " ; [ \ ' " to h j k l
+# alt - 0x29: skhd -k "escape"
 
 # Yabai
 # Focus window

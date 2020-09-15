@@ -19,6 +19,7 @@ set softtabstop=4
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'https://github.com/tc50cal/vim-terminal.git'
 Plug 'morhetz/gruvbox'
 
 call plug#end()
